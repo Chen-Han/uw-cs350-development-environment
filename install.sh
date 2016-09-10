@@ -2,7 +2,7 @@ mkdir cs350-work
 cd cs350-work
 
 if [ ! `which docker ` ]; then
-    sudo apt-get install --yes docker.io
+    sudo wget -qO- https://get.docker.com/ | sh
     newgrp docker
 fi
 wget http://www.student.cs.uwaterloo.ca/~cs350/os161_repository/os161.tar.gz -O os161.tar.gz && tar -xzf os161.tar.gz
