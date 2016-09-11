@@ -41,6 +41,14 @@ Step 3
 cd /root/cs350-os161/root && sys161 kernel
 ```
 
+*Future Access of Docker*
+
+```bash
+sudo docker ps -a #shows the container id
+sudo docker start <container-id>
+sudo docker exec -ti <container-id> bash
+```
+
 Supports most x86/x86-64 Linux/OS X systems.
 
 Rationale
