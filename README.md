@@ -13,6 +13,7 @@ Step 2
 ```bash
 bash ./install.sh
 # enter password as prompted
+# might take a while
 ```
 
 Step 3
@@ -31,6 +32,7 @@ Step 2
 ```bash
 bash ./install-mac.sh
 # enter password as prompted
+# might take a while
 ```
 
 Step 3
