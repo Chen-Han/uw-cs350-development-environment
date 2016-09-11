@@ -11,8 +11,32 @@ Step 1, put `additional_processing.sh` and `install.sh` in the same folder
 
 Step 2
 ```bash
-bash install.sh
+bash ./install.sh
 # enter password as prompted
+```
+
+Step 3
+```bash
+# you should now see a new bash session in docker container
+cd /root/cs350-os161/root && sys161 kernel
+```
+
+Quickstart on Mac:
+
+Step 0, install docker at [https://docs.docker.com/docker-for-mac/](https://docs.docker.com/docker-for-mac/) 
+
+Step 1, put `additional_processing.sh` and `install.sh` in the same folder
+
+Step 2
+```bash
+bash ./install-mac.sh
+# enter password as prompted
+```
+
+Step 3
+```bash
+# you should now see a new bash session in docker container
+cd /root/cs350-os161/root && sys161 kernel
 ```
 
 Supports most x86/x86-64 Linux/OS X systems.
